@@ -1295,7 +1295,7 @@ int main() { di::make_injector<test_config>(); }
           });
     };
 
-    test named_paramater_spelling = [] {
+    test named_parameter_spelling = [] {
       expect_compile_fail("", errors(), auto name = [] {}; struct c{BOOST_DI_INJECT(c, (NAMED = name) int){}}; int main(){});
     };
 
