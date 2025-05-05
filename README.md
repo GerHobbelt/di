@@ -1,13 +1,12 @@
 <a href="http://www.boost.org/LICENSE_1_0.txt" target="_blank">![Boost Licence](http://img.shields.io/badge/license-boost-blue.svg)</a>
-<a href="https://github.com/boost-ext/di/releases" target="_blank">![Version](https://badge.fury.io/gh/boost-ext%2Fdi.svg)</a>
+<a href="https://github.com/boost-ext/di/releases" target="_blank">![Version](https://img.shields.io/github/v/release/boost-ext/di)</a>
 <a href="https://github.com/boost-ext/di/actions/workflows/build.yml" target="_blank">![Linux](https://github.com/boost-ext/di/actions/workflows/build.yml/badge.svg)</a>
 <a href="https://codecov.io/gh/boost-ext/di" target="_blank">![Coveralls](https://codecov.io/gh/boost-ext/di/branch/cpp14/graph/badge.svg)</a>
-<a href="http://github.com/boost-ext/di/issues" target="_blank">![Github Issues](https://img.shields.io/github/issues/boost-ext/di.svg)</a>
 <a href="https://godbolt.org/z/5qTKhf">![Try it online](https://img.shields.io/badge/try%20it-online-blue.svg)</a>
 
 ---------------------------------------
 
-# [Boost::ext].DI
+# boost-ext.di
 
 Your C++14 **one header only** Dependency Injection library with no dependencies
 
@@ -20,7 +19,7 @@ Your C++14 **one header only** Dependency Injection library with no dependencies
 ### Quick start
 
 #### Download
-> [Boost::ext].DI requires only one file. Get the latest header [here!](https://raw.githubusercontent.com/boost-ext/di/cpp14/include/boost/di.hpp)
+> boost-ext.di requires only one file. Get the latest header [here!](https://raw.githubusercontent.com/boost-ext/di/cpp14/include/boost/di.hpp)
 
 #### Include
 ```cpp
@@ -274,7 +273,7 @@ public:
   example(Exchange exchange, Engine engine)
     : exchange(std::move(exchange)), engine(std::move(engine))
   { }
-  
+
 private:
   Exchange exchange;
   Engine engine;
@@ -449,4 +448,4 @@ retq
 
 ---
 
-**Disclaimer** `[Boost::ext].DI` is not an official Boost library.
+**Disclaimer** `boost-ext.di` is not an official Boost library.
